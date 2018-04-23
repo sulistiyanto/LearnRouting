@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED0CED6208DDAB800283175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CED5208DDAB800283175 /* AppDelegate.swift */; };
+		CED0CED8208DDAB800283175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CED7208DDAB800283175 /* ViewController.swift */; };
+		CED0CEDB208DDAB800283175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED0CED9208DDAB800283175 /* Main.storyboard */; };
+		CED0CEDD208DDAB900283175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED0CEDC208DDAB900283175 /* Assets.xcassets */; };
+		CED0CEE0208DDAB900283175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED0CEDE208DDAB900283175 /* LaunchScreen.storyboard */; };
+		CED0CEEB208DDAB900283175 /* NgamukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CEEA208DDAB900283175 /* NgamukTests.swift */; };
+		CED0CEF6208DDAB900283175 /* NgamukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CEF5208DDAB900283175 /* NgamukUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED0CEE7208DDAB900283175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED0CECA208DDAB800283175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED0CED1208DDAB800283175;
+			remoteInfo = Ngamuk;
+		};
+		CED0CEF2208DDAB900283175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED0CECA208DDAB800283175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED0CED1208DDAB800283175;
+			remoteInfo = Ngamuk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED0CED2208DDAB800283175 /* Ngamuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ngamuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED0CED5208DDAB800283175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED0CED7208DDAB800283175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED0CEDA208DDAB800283175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED0CEDC208DDAB900283175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED0CEDF208DDAB900283175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED0CEE1208DDAB900283175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED0CEE6208DDAB900283175 /* NgamukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgamukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED0CEEA208DDAB900283175 /* NgamukTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgamukTests.swift; sourceTree = "<group>"; };
+		CED0CEEC208DDAB900283175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED0CEF1208DDAB900283175 /* NgamukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgamukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED0CEF5208DDAB900283175 /* NgamukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgamukUITests.swift; sourceTree = "<group>"; };
+		CED0CEF7208DDAB900283175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED0CECF208DDAB800283175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEE3208DDAB900283175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEEE208DDAB900283175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED0CEC9208DDAB800283175 = {
+			isa = PBXGroup;
+			children = (
+				CED0CED4208DDAB800283175 /* Ngamuk */,
+				CED0CEE9208DDAB900283175 /* NgamukTests */,
+				CED0CEF4208DDAB900283175 /* NgamukUITests */,
+				CED0CED3208DDAB800283175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED0CED3208DDAB800283175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED0CED2208DDAB800283175 /* Ngamuk.app */,
+				CED0CEE6208DDAB900283175 /* NgamukTests.xctest */,
+				CED0CEF1208DDAB900283175 /* NgamukUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED0CED4208DDAB800283175 /* Ngamuk */ = {
+			isa = PBXGroup;
+			children = (
+				CED0CED5208DDAB800283175 /* AppDelegate.swift */,
+				CED0CED7208DDAB800283175 /* ViewController.swift */,
+				CED0CED9208DDAB800283175 /* Main.storyboard */,
+				CED0CEDC208DDAB900283175 /* Assets.xcassets */,
+				CED0CEDE208DDAB900283175 /* LaunchScreen.storyboard */,
+				CED0CEE1208DDAB900283175 /* Info.plist */,
+			);
+			path = Ngamuk;
+			sourceTree = "<group>";
+		};
+		CED0CEE9208DDAB900283175 /* NgamukTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED0CEEA208DDAB900283175 /* NgamukTests.swift */,
+				CED0CEEC208DDAB900283175 /* Info.plist */,
+			);
+			path = NgamukTests;
+			sourceTree = "<group>";
+		};
+		CED0CEF4208DDAB900283175 /* NgamukUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED0CEF5208DDAB900283175 /* NgamukUITests.swift */,
+				CED0CEF7208DDAB900283175 /* Info.plist */,
+			);
+			path = NgamukUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED0CED1208DDAB800283175 /* Ngamuk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED0CEFA208DDAB900283175 /* Build configuration list for PBXNativeTarget "Ngamuk" */;
+			buildPhases = (
+				CED0CECE208DDAB800283175 /* Sources */,
+				CED0CECF208DDAB800283175 /* Frameworks */,
+				CED0CED0208DDAB800283175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ngamuk;
+			productName = Ngamuk;
+			productReference = CED0CED2208DDAB800283175 /* Ngamuk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED0CEE5208DDAB900283175 /* NgamukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED0CEFD208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukTests" */;
+			buildPhases = (
+				CED0CEE2208DDAB900283175 /* Sources */,
+				CED0CEE3208DDAB900283175 /* Frameworks */,
+				CED0CEE4208DDAB900283175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED0CEE8208DDAB900283175 /* PBXTargetDependency */,
+			);
+			name = NgamukTests;
+			productName = NgamukTests;
+			productReference = CED0CEE6208DDAB900283175 /* NgamukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED0CEF0208DDAB900283175 /* NgamukUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED0CF00208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukUITests" */;
+			buildPhases = (
+				CED0CEED208DDAB900283175 /* Sources */,
+				CED0CEEE208DDAB900283175 /* Frameworks */,
+				CED0CEEF208DDAB900283175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED0CEF3208DDAB900283175 /* PBXTargetDependency */,
+			);
+			name = NgamukUITests;
+			productName = NgamukUITests;
+			productReference = CED0CEF1208DDAB900283175 /* NgamukUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED0CECA208DDAB800283175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CED0CED1208DDAB800283175 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CED0CEE5208DDAB900283175 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CED0CED1208DDAB800283175;
+					};
+					CED0CEF0208DDAB900283175 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CED0CED1208DDAB800283175;
+					};
+				};
+			};
+			buildConfigurationList = CED0CECD208DDAB800283175 /* Build configuration list for PBXProject "Ngamuk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED0CEC9208DDAB800283175;
+			productRefGroup = CED0CED3208DDAB800283175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED0CED1208DDAB800283175 /* Ngamuk */,
+				CED0CEE5208DDAB900283175 /* NgamukTests */,
+				CED0CEF0208DDAB900283175 /* NgamukUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED0CED0208DDAB800283175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED0CEE0208DDAB900283175 /* LaunchScreen.storyboard in Resources */,
+				CED0CEDD208DDAB900283175 /* Assets.xcassets in Resources */,
+				CED0CEDB208DDAB800283175 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEE4208DDAB900283175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEEF208DDAB900283175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED0CECE208DDAB800283175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED0CED8208DDAB800283175 /* ViewController.swift in Sources */,
+				CED0CED6208DDAB800283175 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEE2208DDAB900283175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED0CEEB208DDAB900283175 /* NgamukTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0CEED208DDAB900283175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED0CEF6208DDAB900283175 /* NgamukUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED0CEE8208DDAB900283175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED0CED1208DDAB800283175 /* Ngamuk */;
+			targetProxy = CED0CEE7208DDAB900283175 /* PBXContainerItemProxy */;
+		};
+		CED0CEF3208DDAB900283175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED0CED1208DDAB800283175 /* Ngamuk */;
+			targetProxy = CED0CEF2208DDAB900283175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED0CED9208DDAB800283175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED0CEDA208DDAB800283175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED0CEDE208DDAB900283175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED0CEDF208DDAB900283175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED0CEF8208DDAB900283175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED0CEF9208DDAB900283175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED0CEFB208DDAB900283175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ngamuk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.Ngamuk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED0CEFC208DDAB900283175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ngamuk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.Ngamuk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED0CEFE208DDAB900283175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NgamukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.NgamukTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ngamuk.app/Ngamuk";
+			};
+			name = Debug;
+		};
+		CED0CEFF208DDAB900283175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NgamukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.NgamukTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ngamuk.app/Ngamuk";
+			};
+			name = Release;
+		};
+		CED0CF01208DDAB900283175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NgamukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.NgamukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ngamuk;
+			};
+			name = Debug;
+		};
+		CED0CF02208DDAB900283175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NgamukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tuban-Dev.NgamukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ngamuk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED0CECD208DDAB800283175 /* Build configuration list for PBXProject "Ngamuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED0CEF8208DDAB900283175 /* Debug */,
+				CED0CEF9208DDAB900283175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED0CEFA208DDAB900283175 /* Build configuration list for PBXNativeTarget "Ngamuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED0CEFB208DDAB900283175 /* Debug */,
+				CED0CEFC208DDAB900283175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED0CEFD208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED0CEFE208DDAB900283175 /* Debug */,
+				CED0CEFF208DDAB900283175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED0CF00208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED0CF01208DDAB900283175 /* Debug */,
+				CED0CF02208DDAB900283175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED0CECA208DDAB800283175 /* Project object */;
+}
