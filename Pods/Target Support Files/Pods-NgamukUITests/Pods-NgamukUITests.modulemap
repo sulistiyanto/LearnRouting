@@ -1,0 +1,6 @@
+framework module Pods_NgamukUITests {
+  umbrella header "Pods-NgamukUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

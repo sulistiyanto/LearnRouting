@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9FCB4E2161283C0588C821 /* Pods_NgamukUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A0D16E0A42F9B2D3C4E4D /* Pods_NgamukUITests.framework */; };
+		7C56EE449BE64DF314CAE926 /* Pods_NgamukTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1D687EE4F793B1608A2D6B /* Pods_NgamukTests.framework */; };
+		A3DC3800A705FB3082F41AA1 /* Pods_Ngamuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6B47DBBEDA379C7C6836B7 /* Pods_Ngamuk.framework */; };
+		CE1865D0208F040B003AC22A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865CF208F040B003AC22A /* FirstViewController.swift */; };
+		CE1865D2208F041C003AC22A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865D1208F041C003AC22A /* MenuViewController.swift */; };
+		CE1865D5208F0780003AC22A /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865D4208F0780003AC22A /* AppRouter.swift */; };
+		CE1865D8208F086F003AC22A /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865D7208F086F003AC22A /* AppReducer.swift */; };
+		CE1865DA208F088E003AC22A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865D9208F088E003AC22A /* AppState.swift */; };
+		CE1865DC208F08EB003AC22A /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865DB208F08EB003AC22A /* RoutingReducer.swift */; };
+		CE1865DE208F0952003AC22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865DD208F0951003AC22A /* ViewController.swift */; };
+		CE1865E1208F096C003AC22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1865DF208F096C003AC22A /* Main.storyboard */; };
+		CE1865E3208F0A8E003AC22A /* FirstState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865E2208F0A8E003AC22A /* FirstState.swift */; };
+		CE1865E5208F0AFC003AC22A /* SecondState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865E4208F0AFC003AC22A /* SecondState.swift */; };
+		CE1865E8208F0C6E003AC22A /* RoutingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865E7208F0C6E003AC22A /* RoutingAction.swift */; };
+		CE1865EA208F0C98003AC22A /* FirstReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865E9208F0C98003AC22A /* FirstReducer.swift */; };
+		CE1865EC208F0D65003AC22A /* SecondReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1865EB208F0D65003AC22A /* SecondReducer.swift */; };
+		CEC74FB5208DDE2F0084A05C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC74FB4208DDE2F0084A05C /* SecondViewController.swift */; };
+		CEC74FB7208DE17F0084A05C /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC74FB6208DE17F0084A05C /* Navigation.swift */; };
+		CEC74FB9208DE26A0084A05C /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC74FB8208DE26A0084A05C /* RoutingState.swift */; };
 		CED0CED6208DDAB800283175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CED5208DDAB800283175 /* AppDelegate.swift */; };
-		CED0CED8208DDAB800283175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CED7208DDAB800283175 /* ViewController.swift */; };
-		CED0CEDB208DDAB800283175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED0CED9208DDAB800283175 /* Main.storyboard */; };
 		CED0CEDD208DDAB900283175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED0CEDC208DDAB900283175 /* Assets.xcassets */; };
 		CED0CEE0208DDAB900283175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED0CEDE208DDAB900283175 /* LaunchScreen.storyboard */; };
 		CED0CEEB208DDAB900283175 /* NgamukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0CEEA208DDAB900283175 /* NgamukTests.swift */; };
@@ -34,10 +51,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EA85B8677C67CF3A16DEAE7 /* Pods-NgamukUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgamukUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgamukUITests/Pods-NgamukUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		932F32DFA810754E29F14936 /* Pods-Ngamuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ngamuk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ngamuk/Pods-Ngamuk.debug.xcconfig"; sourceTree = "<group>"; };
+		99463F8D0FEAE081EEABF498 /* Pods-Ngamuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ngamuk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ngamuk/Pods-Ngamuk.release.xcconfig"; sourceTree = "<group>"; };
+		A589501E96F37A365B02F6D2 /* Pods-NgamukTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgamukTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgamukTests/Pods-NgamukTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8DE744CA4523848E1C4D22 /* Pods-NgamukUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgamukUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgamukUITests/Pods-NgamukUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C67A0D16E0A42F9B2D3C4E4D /* Pods_NgamukUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgamukUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1D687EE4F793B1608A2D6B /* Pods_NgamukTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NgamukTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1865CF208F040B003AC22A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CE1865D1208F041C003AC22A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE1865D4208F0780003AC22A /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		CE1865D7208F086F003AC22A /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		CE1865D9208F088E003AC22A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CE1865DB208F08EB003AC22A /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
+		CE1865DD208F0951003AC22A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Views/ViewController.swift; sourceTree = "<group>"; };
+		CE1865E0208F096C003AC22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1865E2208F0A8E003AC22A /* FirstState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstState.swift; sourceTree = "<group>"; };
+		CE1865E4208F0AFC003AC22A /* SecondState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondState.swift; sourceTree = "<group>"; };
+		CE1865E7208F0C6E003AC22A /* RoutingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAction.swift; sourceTree = "<group>"; };
+		CE1865E9208F0C98003AC22A /* FirstReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstReducer.swift; sourceTree = "<group>"; };
+		CE1865EB208F0D65003AC22A /* SecondReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondReducer.swift; sourceTree = "<group>"; };
+		CEC74FB4208DDE2F0084A05C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CEC74FB6208DE17F0084A05C /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		CEC74FB8208DE26A0084A05C /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
 		CED0CED2208DDAB800283175 /* Ngamuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ngamuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED0CED5208DDAB800283175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED0CED7208DDAB800283175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CED0CEDA208DDAB800283175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED0CEDC208DDAB900283175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED0CEDF208DDAB900283175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED0CEE1208DDAB900283175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +85,8 @@
 		CED0CEF1208DDAB900283175 /* NgamukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgamukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED0CEF5208DDAB900283175 /* NgamukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgamukUITests.swift; sourceTree = "<group>"; };
 		CED0CEF7208DDAB900283175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6B47DBBEDA379C7C6836B7 /* Pods_Ngamuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ngamuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2E6A6851231B580413F09E /* Pods-NgamukTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgamukTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgamukTests/Pods-NgamukTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DC3800A705FB3082F41AA1 /* Pods_Ngamuk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C56EE449BE64DF314CAE926 /* Pods_NgamukTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9FCB4E2161283C0588C821 /* Pods_NgamukUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50CB4AC4691227E2A5DA7F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				932F32DFA810754E29F14936 /* Pods-Ngamuk.debug.xcconfig */,
+				99463F8D0FEAE081EEABF498 /* Pods-Ngamuk.release.xcconfig */,
+				A589501E96F37A365B02F6D2 /* Pods-NgamukTests.debug.xcconfig */,
+				FE2E6A6851231B580413F09E /* Pods-NgamukTests.release.xcconfig */,
+				7EA85B8677C67CF3A16DEAE7 /* Pods-NgamukUITests.debug.xcconfig */,
+				AB8DE744CA4523848E1C4D22 /* Pods-NgamukUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62069E06D4D2F1DE1BC589D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B47DBBEDA379C7C6836B7 /* Pods_Ngamuk.framework */,
+				CC1D687EE4F793B1608A2D6B /* Pods_NgamukTests.framework */,
+				C67A0D16E0A42F9B2D3C4E4D /* Pods_NgamukUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1865CE208F03C5003AC22A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEC74FB4208DDE2F0084A05C /* SecondViewController.swift */,
+				CE1865CF208F040B003AC22A /* FirstViewController.swift */,
+				CE1865D1208F041C003AC22A /* MenuViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE1865D3208F075E003AC22A /* State */ = {
+			isa = PBXGroup;
+			children = (
+				CEC74FB8208DE26A0084A05C /* RoutingState.swift */,
+				CE1865D9208F088E003AC22A /* AppState.swift */,
+				CE1865E2208F0A8E003AC22A /* FirstState.swift */,
+				CE1865E4208F0AFC003AC22A /* SecondState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		CE1865D6208F0850003AC22A /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1865D7208F086F003AC22A /* AppReducer.swift */,
+				CE1865DB208F08EB003AC22A /* RoutingReducer.swift */,
+				CE1865E9208F0C98003AC22A /* FirstReducer.swift */,
+				CE1865EB208F0D65003AC22A /* SecondReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		CE1865E6208F0B8C003AC22A /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				CE1865E7208F0C6E003AC22A /* RoutingAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 		CED0CEC9208DDAB800283175 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +187,8 @@
 				CED0CEE9208DDAB900283175 /* NgamukTests */,
 				CED0CEF4208DDAB900283175 /* NgamukUITests */,
 				CED0CED3208DDAB800283175 /* Products */,
+				50CB4AC4691227E2A5DA7F16 /* Pods */,
+				62069E06D4D2F1DE1BC589D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +205,18 @@
 		CED0CED4208DDAB800283175 /* Ngamuk */ = {
 			isa = PBXGroup;
 			children = (
+				CE1865DF208F096C003AC22A /* Main.storyboard */,
+				CE1865DD208F0951003AC22A /* ViewController.swift */,
+				CE1865E6208F0B8C003AC22A /* Actions */,
+				CE1865D6208F0850003AC22A /* Reducers */,
+				CE1865D3208F075E003AC22A /* State */,
+				CE1865CE208F03C5003AC22A /* Views */,
 				CED0CED5208DDAB800283175 /* AppDelegate.swift */,
-				CED0CED7208DDAB800283175 /* ViewController.swift */,
-				CED0CED9208DDAB800283175 /* Main.storyboard */,
 				CED0CEDC208DDAB900283175 /* Assets.xcassets */,
 				CED0CEDE208DDAB900283175 /* LaunchScreen.storyboard */,
 				CED0CEE1208DDAB900283175 /* Info.plist */,
+				CEC74FB6208DE17F0084A05C /* Navigation.swift */,
+				CE1865D4208F0780003AC22A /* AppRouter.swift */,
 			);
 			path = Ngamuk;
 			sourceTree = "<group>";
@@ -132,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED0CEFA208DDAB900283175 /* Build configuration list for PBXNativeTarget "Ngamuk" */;
 			buildPhases = (
+				D2EB0C85E6D96B20FB91A75B /* [CP] Check Pods Manifest.lock */,
 				CED0CECE208DDAB800283175 /* Sources */,
 				CED0CECF208DDAB800283175 /* Frameworks */,
 				CED0CED0208DDAB800283175 /* Resources */,
+				FAC198AC09D782F679FAD288 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED0CEFD208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukTests" */;
 			buildPhases = (
+				89C2CB8124CB4AE96F934E90 /* [CP] Check Pods Manifest.lock */,
 				CED0CEE2208DDAB900283175 /* Sources */,
 				CED0CEE3208DDAB900283175 /* Frameworks */,
 				CED0CEE4208DDAB900283175 /* Resources */,
@@ -167,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED0CF00208DDAB900283175 /* Build configuration list for PBXNativeTarget "NgamukUITests" */;
 			buildPhases = (
+				B3DA25C2C67831B728B89024 /* [CP] Check Pods Manifest.lock */,
 				CED0CEED208DDAB900283175 /* Sources */,
 				CED0CEEE208DDAB900283175 /* Frameworks */,
 				CED0CEEF208DDAB900283175 /* Resources */,
@@ -229,9 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1865E1208F096C003AC22A /* Main.storyboard in Resources */,
 				CED0CEE0208DDAB900283175 /* LaunchScreen.storyboard in Resources */,
 				CED0CEDD208DDAB900283175 /* Assets.xcassets in Resources */,
-				CED0CEDB208DDAB800283175 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +369,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89C2CB8124CB4AE96F934E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NgamukTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3DA25C2C67831B728B89024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NgamukUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EB0C85E6D96B20FB91A75B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ngamuk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC198AC09D782F679FAD288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ngamuk/Pods-Ngamuk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ngamuk/Pods-Ngamuk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED0CECE208DDAB800283175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED0CED8208DDAB800283175 /* ViewController.swift in Sources */,
+				CEC74FB5208DDE2F0084A05C /* SecondViewController.swift in Sources */,
+				CE1865EA208F0C98003AC22A /* FirstReducer.swift in Sources */,
+				CEC74FB7208DE17F0084A05C /* Navigation.swift in Sources */,
+				CE1865D2208F041C003AC22A /* MenuViewController.swift in Sources */,
+				CE1865EC208F0D65003AC22A /* SecondReducer.swift in Sources */,
+				CE1865DA208F088E003AC22A /* AppState.swift in Sources */,
+				CE1865DE208F0952003AC22A /* ViewController.swift in Sources */,
+				CE1865D0208F040B003AC22A /* FirstViewController.swift in Sources */,
+				CE1865E5208F0AFC003AC22A /* SecondState.swift in Sources */,
+				CE1865D5208F0780003AC22A /* AppRouter.swift in Sources */,
+				CE1865E8208F0C6E003AC22A /* RoutingAction.swift in Sources */,
+				CEC74FB9208DE26A0084A05C /* RoutingState.swift in Sources */,
+				CE1865E3208F0A8E003AC22A /* FirstState.swift in Sources */,
+				CE1865D8208F086F003AC22A /* AppReducer.swift in Sources */,
 				CED0CED6208DDAB800283175 /* AppDelegate.swift in Sources */,
+				CE1865DC208F08EB003AC22A /* RoutingReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +500,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CED0CED9208DDAB800283175 /* Main.storyboard */ = {
+		CE1865DF208F096C003AC22A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CED0CEDA208DDAB800283175 /* Base */,
+				CE1865E0208F096C003AC22A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -428,6 +635,7 @@
 		};
 		CED0CEFB208DDAB900283175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932F32DFA810754E29F14936 /* Pods-Ngamuk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +653,7 @@
 		};
 		CED0CEFC208DDAB900283175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99463F8D0FEAE081EEABF498 /* Pods-Ngamuk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +671,7 @@
 		};
 		CED0CEFE208DDAB900283175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A589501E96F37A365B02F6D2 /* Pods-NgamukTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +692,7 @@
 		};
 		CED0CEFF208DDAB900283175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2E6A6851231B580413F09E /* Pods-NgamukTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +713,7 @@
 		};
 		CED0CF01208DDAB900283175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA85B8677C67CF3A16DEAE7 /* Pods-NgamukUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +733,7 @@
 		};
 		CED0CF02208DDAB900283175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8DE744CA4523848E1C4D22 /* Pods-NgamukUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
